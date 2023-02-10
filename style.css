@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    margin: 70px 20px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+.toolbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.toolbar i{
+    margin: 5px;
+    cursor: pointer;
+}
+#btn{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+.note-area textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    height: 370px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+}
